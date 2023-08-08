@@ -1,0 +1,28 @@
+.carousel .thumb.selected,
+.carousel .thumb:hover {
+    border: 1px solid #BB2649 !important;
+    border-radius: 5px;
+    box-shadow: 0 0 3px #BB2649;
+}
+
+.carousel .thumb {
+    border: 1px solid #E0E0E0;
+    border-radius: 5px;
+    box-shadow: 0 0 3px #E0E0E0;
+    margin: 0 2px;
+    padding: 2px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.carousel .thumbs-wrapper {
+    margin: 20px 0 0 0;
+    overflow: hidden;
+}
+
+.thumbs .animated {
+    transform: translate3d(0px, 0px, 0px) !important;
+    transition-duration: 350ms !important;
+    margin: unset !important;
+    padding: unset !important;
+}

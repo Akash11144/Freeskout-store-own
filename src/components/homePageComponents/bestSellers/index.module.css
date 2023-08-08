@@ -1,0 +1,73 @@
+.mainCont {
+    width: 100vw !important;
+    padding: 2%;
+    margin: 5% 0;
+}
+
+.HeadingCont {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5% 0;
+}
+
+.HeadingCont>h1 {
+    padding: 0;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 43px;
+    color: #000536;
+}
+
+.HeadingCont>p {
+    font-size: 16px;
+    line-height: 19px;
+    color: #000536;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+}
+
+.cardsCont {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: stretch
+}
+
+.ArrowRight {
+    animation: bounce 2000ms infinite cubic-bezier(0.445, 0.05, 0.55, 0.95);
+}
+
+@keyframes bounce {
+    50% {
+        transform: translateX(6px);
+    }
+}
+
+@media(max-width:1310px) {
+    .HeadingCont>h1 {
+        font-size: 32px;
+        line-height: 1.1;
+    }
+}
+
+@media(max-width:1090px) {
+    .HeadingCont>h1 {
+        font-size: 26px;
+    }
+}
+
+
+@media(max-width:768px) {
+    .HeadingCont>h1 {
+        font-size: 20px;
+    }
+}
+
+@media(max-width:540px) {
+    .HeadingCont>p {
+        font-size: 12px;
+        line-height: unset;
+    }
+}

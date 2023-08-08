@@ -1,0 +1,143 @@
+.customerProfileContainer {
+    width: 100%;
+    padding: 1rem 30px;
+}
+
+.customerProfileContainer>div>.cpFormSection {
+    margin-top: 2rem;
+    max-width: 38rem;
+}
+
+.customerProfileHead {
+    letter-spacing: 1px;
+}
+
+.customerProfileQuote {
+    width: 70%;
+    text-align: left;
+    font-weight: 400 !important;
+    font-style: italic !important;
+}
+
+.cpFormInput {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.cpFormInputLabel {
+    width: 220px;
+    display: grid;
+    place-items: center;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.cpFormDpRight {
+    width: 100%;
+}
+
+.cpFormDpRightDp img {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 3px;
+    object-fit: cover;
+}
+
+.cpFormDpRightDp button {
+    border: none;
+    background-color: transparent;
+    margin-left: 1rem;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.cpFormInput input {
+    border: 1.5px solid rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
+    padding: 7px 10px;
+    margin-block: 10px;
+}
+
+.cpFormRightName {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 5px !important;
+}
+
+.cpFormRightName input {
+    width: 48%;
+}
+
+.cpFormRightGender label {
+    margin-inline: 8px 18px;
+    font-size: 15px;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.cpFormRightGender input {
+    cursor: pointer;
+}
+
+.cpFormRightEmail input {
+    width: 100%;
+}
+
+.cpFormDpRight select {
+    width: 100%;
+    border: 1.5px solid rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
+    padding: 7px 10px;
+    margin-block: 10px;
+}
+
+.cpFormBtn {
+    border: none;
+    padding: 6px 14px;
+    background-color: rgba(26, 219, 128, 1);
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 4px;
+}
+
+
+@media(max-width : 840px) {
+    .cpFormInputLabel {
+        width: 100%;
+        text-align: left;
+        place-items: unset;
+    }
+}
+
+@media(max-width : 600px) {
+    .customerProfileContainer {
+        padding: 2rem 18px;
+    }
+
+    .cpFormRightName {
+        display: grid;
+        grid-template-columns: auto;
+        gap: unset !important;
+    }
+
+    .customerProfileQuote {
+        width: 99%;
+    }
+}
+
+@media(max-width : 500px) {
+    .customerProfileContainer {
+        padding: 0rem 15px;
+    }
+
+    .cpFormInput {
+        grid-template-columns: 1fr;
+    }
+
+    .cpFormSection {
+        margin-top: 1rem;
+    }
+}

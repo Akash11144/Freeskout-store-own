@@ -1,0 +1,17 @@
+.mainDiv {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: unset !important;
+    margin-top: 9vh;
+    min-height: 81vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    display: grid;
+    place-items: center;
+}
+
+.contDiv {
+    color: #4f0b27;
+}

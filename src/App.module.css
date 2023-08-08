@@ -1,0 +1,28 @@
+body {
+  font-family: "Poppins", sans-serif !important;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.mainAppCont {
+  margin-top: 75px;
+  width: 100% !important;
+}
+
+.mainAppSecondaryCont {
+  width: 100%;
+  padding: unset !important;
+  min-height: 80vh;
+  margin-top: 10vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.LoginCont {
+  /* position: absolute; */
+  left: 0;
+  top: 8vh;
+  width: 100vw;
+}

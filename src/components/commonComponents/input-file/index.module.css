@@ -1,0 +1,68 @@
+/* ----------------------- */
+.hiddenFileInput {
+  display: none;
+}
+
+.inputBox {
+  outline: 0;
+  border: 0;
+  border-radius: 5px;
+  background-color: rgba(13, 158, 206, 0.571);
+  cursor: pointer;
+  padding: 5px;
+}
+
+.smallImages {
+  height: 50px;
+  object-fit: cover;
+  max-width: 100px;
+  margin: 2px 1px;
+  padding: 2px;
+  border-radius: 5px;
+}
+
+.mediumImages {
+  height: 100px;
+  object-fit: cover;
+  max-width: 200px;
+  margin: 2px 1px;
+  padding: 2px;
+  border-radius: 10px;
+}
+
+.largeImages {
+  height: 150px;
+  object-fit: cover;
+  max-width: 300px;
+  margin: 2px 1px;
+  padding: 2px;
+  border-radius: 15px;
+}
+
+.crossBtn {
+  position: absolute;
+  right: 0;
+  border: 0;
+  border-radius: 0.9rem;
+  font-size: 0.7rem;
+  background-color: rgba(116, 31, 31, 0.595);
+  transition-property: background-color font-size;
+  transition-duration: 300ms;
+}
+
+.crossBtn:hover {
+  font-size: 0.8rem;
+  background-color: red;
+}
+
+/* ------ */
+
+.inputErrStyles {
+  border: 1px solid rgba(255, 0, 0, 0.504) !important;
+}
+
+.errorTextContainer {
+  color: rgba(255, 0, 0, 0.718);
+  font-size: 12px;
+  font-weight: 500;
+}

@@ -1,0 +1,160 @@
+.mainCont {
+    width: 100%;
+    height: 100%;
+    margin: 10% auto;
+    padding: 0 2%;
+    -webkit-user-select: none;
+    user-select: none;
+    background-color: aqua;
+}
+
+Link {
+    text-decoration: none;
+}
+
+.Heading {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5%;
+}
+
+.Heading>h2 {
+    color: #000536;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 35px;
+    margin: unset;
+}
+
+.lightHeading {
+    color: rgba(0, 5, 54, 0.49);
+}
+
+.seeAll {
+    display: flex;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    cursor: pointer;
+    color: #151518;
+    opacity: 0.5;
+    text-transform: uppercase;
+    margin: unset;
+    text-decoration: none;
+}
+
+.seeAll>span {
+    animation: bounce 2000ms infinite cubic-bezier(0.445, 0.05,
+            0.55, 0.95);
+    margin: 0 0 0 5px;
+    display: grid;
+    align-items: center;
+}
+
+@keyframes bounce {
+    50% {
+        transform: translateX(6px);
+    }
+}
+
+.Carousel {
+    width: 100%;
+    height: 100%;
+    margin: 0% auto;
+    padding: 0 2%;
+    -webkit-user-select: none;
+    user-select: none;
+    display: flex;
+    justify-content: space-between;
+    overflow-x: auto;
+    gap: 20px;
+}
+
+.option {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.optionImg {
+    cursor: pointer;
+}
+
+.optionImg>img {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    object-fit: cover;
+    transition: all 0.3s ease-in-out;
+}
+
+.option:hover .optionImg>img {
+    scale: 0.99;
+}
+
+.optionDesc {
+    margin-top: 12px;
+    color: #000536;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+}
+
+@media(max-width:1310px) {
+    .Heading>h2 {
+        font-size: 32px;
+        line-height: 1.1;
+    }
+}
+
+@media(max-width:1090px) {
+    .Heading>h2 {
+        font-size: 26px;
+    }
+}
+
+@media(max-width:768px) {
+    .Heading>h2 {
+        font-size: 20px;
+    }
+
+    .optionImg>img {
+        width: 150px;
+        height: 150px;
+        border-radius: 75px;
+    }
+}
+
+@media (max-width : 570px) {
+    .seeAll {
+        font-size: 12px;
+        line-height: unset;
+    }
+
+    .optionImg>img {
+        width: 120px;
+        height: 120px;
+        border-radius: 60px;
+    }
+
+    .optionDesc {
+        font-size: 14px;
+    }
+
+    .Heading {
+        margin-bottom: 10%;
+    }
+}
+
+@media(max-width: 320px) {
+    .Heading>h2 {
+        font-size: 18px;
+        width: 50%;
+        line-height: 1.2;
+    }
+}

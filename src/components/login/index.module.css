@@ -1,0 +1,91 @@
+.mainCont {
+    width: 100vw;
+    height: 100%;
+    z-index: 11;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: grid;
+    place-items: center;
+    background: #737373ba;
+    background-size: cover;
+    background-position: 0%;
+}
+
+.secondaryCont {
+    background-color: rgba(255, 255, 255);
+    border-radius: 15px;
+    width: 40%;
+    margin: -10vh auto 0 auto;
+    padding: 2% 3%;
+    box-shadow: 0px 0px 50px #b8b7b7
+}
+
+.secondaryCont>h1 {
+    font-weight: 700;
+    margin: 0 auto;
+}
+
+.btnCont {
+    width: 100%;
+}
+
+.loginBtn {
+    width: 100%;
+    background-color: #485AFF !important;
+}
+
+.signUpBtn {
+    width: 100%;
+    background-color: #0F172A !important;
+}
+
+.signUpBtn:hover {
+    background-color: transparent !important;
+    border: 1px solid #0F172A;
+    color: #0F172A !important;
+}
+
+.getOtpBtn {
+    background-color: #485AFF !important;
+    color: #fff !important;
+}
+
+.getOtpBtn:hover {
+    border: 1px solid #485AFF !important;
+    background-color: transparent !important;
+    color: #485aff !important;
+}
+
+@media(max-width:880px) {
+    .secondaryCont {
+        width: 50%;
+    }
+}
+
+@media(max-width:768px) {
+    .secondaryCont {
+        width: 60%;
+    }
+}
+
+@media(max-width:768px) {
+    .secondaryCont {
+        width: 60%;
+        /* margin: 0 auto; */
+    }
+}
+
+@media(max-width:600px) {
+    .secondaryCont {
+        width: 80%;
+        /* margin: 0 auto; */
+    }
+}
+
+@media(max-width:450px) {
+    .secondaryCont {
+        width: 95%;
+        /* margin: 0 auto; */
+    }
+}

@@ -1,0 +1,61 @@
+.orderHistory {
+    width: 100%;
+}
+
+.ohWrapper {
+    padding: 10px 20px;
+}
+
+.ohHeader {
+    background: #FAFAFA;
+    padding: 10px 10px;
+    border-radius: 5px;
+}
+
+.ohHeaderPageNav {
+    display: flex;
+    align-items: center;
+}
+
+.ohProductContain {
+    width: 100%;
+}
+
+.ohHeaderPageNav i,
+.ohHeaderPageNav p {
+    opacity: 0.7;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.ohPageNavHeading {
+    font-weight: 700;
+    font-size: 16px;
+    margin: 2% 0 2% 0 !important;
+}
+
+.ohPageNavPara {
+    margin: unset;
+    font-weight: 400;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.592);
+}
+
+
+@media(max-width : 480px) {
+    .ohHeader h5 {
+        font-size: 16px;
+    }
+
+    .ohHeader p {
+        font-size: 13px;
+    }
+
+    .ohHeader {
+        margin-inline: -10px;
+    }
+
+    .ohWrapper {
+        padding: 1rem 20px;
+    }
+}

@@ -1,0 +1,27 @@
+.likeCont {
+  font-size: 22px;
+  background-color: transparent !important;
+}
+
+.likeCont:hover {
+  color: grey;
+}
+
+.red {
+  color: red;
+}
+
+.red:hover {
+  color: rgb(224, 151, 163);
+  ;
+}
+
+.grey {
+  color: rgb(195, 193, 193);
+}
+
+.btn {
+  border: none;
+  outline: none;
+  background-color: transparent !important;
+}

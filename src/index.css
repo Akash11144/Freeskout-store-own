@@ -1,0 +1,174 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif !important;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.text-white {
+  color: #eee !important;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.size26 {
+  font-size: 1.6rem;
+}
+
+.size24 {
+  font-size: 1.5rem;
+}
+
+.size22 {
+  font-size: 1.4rem;
+}
+
+.size20 {
+  font-size: 1.3rem;
+}
+
+.size18 {
+  font-size: 1.2rem;
+}
+
+.size16 {
+  font-size: 1.1rem;
+}
+
+.size14 {
+  font-size: 1rem;
+}
+
+.size12 {
+  font-size: 0.9rem;
+}
+
+.size10 {
+  font-size: 0.8rem;
+}
+
+.size8 {
+  font-size: 0.7rem;
+}
+
+.size6 {
+  font-size: 0.6rem;
+}
+
+.light {
+  font-weight: 300;
+}
+
+.regular {
+  font-weight: 400;
+}
+
+.semiBold {
+  font-weight: 500;
+}
+
+.bold {
+  font-weight: 600;
+}
+
+.extraBold {
+  font-weight: 700;
+}
+
+.mx-w-5rem {
+  max-width: 5rem;
+}
+
+.z-top {
+  z-index: 999;
+}
+
+.relative {
+  position: relative;
+}
+
+.categories-cont {
+  position: absolute;
+  left: 0;
+  top: 110%;
+  z-index: 999;
+  background-color: #fff;
+  border-radius: 0.5rem;
+  box-shadow: 5px 5px 10px #3452;
+}
+
+.tags-cont {
+  position: absolute;
+  left: 0;
+  top: 110%;
+  z-index: 999;
+  background-color: #fff;
+  border-radius: 0.5rem;
+  box-shadow: 5px 5px 10px #3452;
+}
+
+.sm-icon {
+  font-size: 1rem;
+}
+
+.outline-dark {
+  border: 1px solid #345;
+}
+
+.pt-1pt5 {
+  padding-top: 0.15rem;
+}
+
+.error-styles {
+  color: #f73429;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.out-of-stock-product {
+  position: relative;
+}
+
+.out-of-stock-image {
+  opacity: 0.9;
+}
+
+.out-of-stock-icon {
+  position: absolute;
+  top: 0rem;
+  left: 0;
+  z-index: 9;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+}
+
+@keyframes slidein {
+  from {
+    transform: rotateZ(10deg)
+  }
+
+  to {
+    transform: rotateZ(-10deg)
+  }
+}

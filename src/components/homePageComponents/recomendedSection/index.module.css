@@ -1,0 +1,110 @@
+.mainCont {
+    width: 100%;
+    height: 100%;
+    padding: 5% 2%;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+.cardsCont {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: stretch
+}
+
+Link {
+    text-decoration: none;
+}
+
+.Heading {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5%;
+}
+
+.Heading>h2 {
+    color: #000536;
+    /* color: #fff; */
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 35px;
+    margin: unset;
+}
+
+.lightHeading {
+    color: rgba(0, 5, 54, 0.49);
+    /* color: aliceblue; */
+    /* color: rgba(217, 217, 217, 0.15); */
+}
+
+.seeAll {
+    display: flex;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    cursor: pointer;
+    color: #151518;
+    /* color: #fff; */
+    opacity: 0.9;
+    text-transform: uppercase;
+    margin: unset;
+    text-decoration: none;
+}
+
+.seeAll>span {
+    animation: bounce 2000ms infinite cubic-bezier(0.445, 0.05,
+            0.55, 0.95);
+    margin: 0 0 0 5px;
+    display: grid;
+    align-items: center;
+}
+
+@keyframes bounce {
+    50% {
+        transform: translateX(6px);
+    }
+}
+
+@media(max-width:1310px) {
+    .Heading>h2 {
+        font-size: 32px;
+        line-height: 1.1;
+    }
+}
+
+@media(max-width:1090px) {
+    .Heading>h2 {
+        font-size: 26px;
+    }
+}
+
+@media(max-width:768px) {
+    .Heading>h2 {
+        font-size: 20px;
+    }
+}
+
+@media (max-width : 570px) {
+    .seeAll {
+        font-size: 12px;
+        line-height: unset;
+    }
+
+    .Heading {
+        margin-bottom: 10%;
+    }
+
+    .mainCont {
+        /* margin: 25% auto; */
+    }
+}
+
+@media(max-width: 320px) {
+    .Heading>h2 {
+        font-size: 18px;
+        width: 50%;
+        line-height: 1.2;
+    }
+}

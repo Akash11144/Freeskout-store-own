@@ -1,0 +1,8 @@
+.navLinkCont {
+    display: grid;
+    place-items: center;
+}
+
+.navLinkCont {
+    margin: 0 1%;
+}

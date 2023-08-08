@@ -1,0 +1,55 @@
+.creditCard{
+    border: 2px solid #32d4b7;
+    border-radius: 5px;
+    padding: 1rem;
+    margin:1rem 0;
+}
+.creditCard label{
+    margin-bottom: 0.5rem;
+}
+.creditCard input{
+    padding:0.3rem 1rem;
+    border: 1px solid rgba(100,100,100,0.7);
+    border-radius: 5px;
+}
+.cardHeader{
+    display: grid;
+    grid-template-columns: 1fr 6fr 6fr;
+}
+.cardtitle h6{
+    font-weight: 700;
+}
+.cardtitle p{
+    font-weight: 600;
+    opacity: 0.8;
+}
+.cardIcons{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.cardIcons img{
+    width: 50px;
+    height: 50px;
+}
+.cardOkicon{
+    color: #1cda7c;
+    text-align: center;
+    font-size: 20px;
+}
+.cardNo input{
+    width: 100%;
+}
+.secondDetails{
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+.secondField input{
+    width: 100%;
+}
+.dateCvv input{
+    width: 100%;
+}
+
+

@@ -1,0 +1,32 @@
+.header {
+    /* background-color: #f5e3e3; */
+    margin-inline: -20px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header h5 {
+    font-weight: 700;
+    margin: unset;
+    padding: unset;
+}
+
+.header p {
+    font-weight: 600;
+    font-size: 14px;
+    opacity: 0.8;
+    margin-top: 6px;
+}
+
+@media(max-width : 480px) {
+    .header h5 {
+        font-size: 16px;
+    }
+
+    .header p {
+        font-size: 13px;
+    }
+}

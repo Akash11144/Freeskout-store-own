@@ -1,0 +1,184 @@
+.sectionRef {
+    /* width: 80vw; */
+    /* margin: 80px auto 0 auto; */
+}
+
+.heading {
+    text-align: center;
+}
+
+.heading h1 {
+    color: RGB(4, 5, 53);
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.heading p {
+    font-weight: 600;
+    opacity: 0.8;
+    width: 45%;
+    margin: 40px auto;
+}
+
+.refCont {
+    background-color: RGB(1, 85, 121);
+    /* width: 80%; */
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.left {
+    height: 100%;
+    flex: 1;
+}
+
+.referImg {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 3%;
+}
+
+.referImg img {
+    margin: 5rem;
+    width: 15rem;
+    /* width: 70%; */
+    height: 15rem;
+}
+
+.right {
+    color: #fff;
+    display: flex;
+    margin: 40px 50px 0 0;
+    flex: 1;
+    flex-direction: column;
+    justify-content: right;
+}
+
+.right h2 span {
+    font-size: 2.3rem;
+    color: gold;
+    font-weight: 700;
+}
+
+.right h2 {
+    text-align: left;
+    font-weight: 600;
+}
+
+.right p {
+    margin-top: 10px;
+    font-weight: 400;
+    opacity: 0.8;
+}
+
+.refCode {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 25px 0;
+
+}
+
+.code {
+    background-color: #fff;
+    color: black;
+    width: 85%;
+    height: 50px;
+    border-radius: 5px;
+    display: grid;
+    place-items: center;
+    font-size: large;
+}
+
+
+.refCode i {
+    font-size: 40px;
+}
+
+.shareIcon {
+    font-size: 50px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.shareIcon:hover {
+    color: #1adb80;
+    scale: 1.1;
+}
+
+@media (max-width : 1030px) {
+    .sectionRef {
+        /* width: 95%; */
+    }
+
+    .refCont {
+        /* width: 90%; */
+    }
+}
+
+@media (max-width:738px) {
+
+    .refCont {
+        width: 100%;
+        padding: 0% 3%;
+    }
+
+    .left {
+        display: none;
+        flex: 0.6;
+    }
+
+    picture img {
+        height: 250px;
+    }
+
+    .refCode {
+        margin: 15px 0
+    }
+
+    .right h2 {
+        text-align: left;
+        font-size: 1.5em;
+    }
+
+    .shareIcon {
+        font-size: 30px;
+    }
+
+    .right h2 span {
+        font-size: 1.8rem;
+    }
+
+    .right p {
+        size: 0.8rem;
+    }
+}
+
+@media (max-width : 480px) {
+    .heading h1 {
+        font-size: 35px;
+    }
+
+    .heading p {
+        text-align: start;
+        width: 90%;
+        margin-top: 30px;
+    }
+
+    .left {
+        display: none;
+    }
+
+    .right {
+        margin: 20px;
+    }
+
+    .right h1 {
+        text-align: start;
+    }
+}

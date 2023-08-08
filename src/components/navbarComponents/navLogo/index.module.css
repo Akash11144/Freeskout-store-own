@@ -1,0 +1,18 @@
+.navLinkCont {
+    margin: 0 1%;
+}
+
+
+.logoM {
+    display: none;
+}
+
+@media(max-width:680px) {
+    .logoM {
+        display: block;
+    }
+
+    .logo {
+        display: none;
+    }
+}

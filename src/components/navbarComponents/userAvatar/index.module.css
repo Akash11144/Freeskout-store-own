@@ -1,0 +1,97 @@
+.navLinkCont {
+    display: grid;
+    place-items: center;
+}
+
+.navLinkCont {
+    margin: 0 1%;
+    position: relative;
+}
+
+.showDropDown {
+    display: block;
+    border: 1px solid rgb(170, 168, 168);
+    padding: 10px 7px;
+    width: max-content;
+    background-color: white;
+    position: absolute;
+    top: 150%;
+    left: -410%;
+    z-index: 22;
+    border-radius: 10px;
+    height: max-content;
+    min-width: 130px;
+}
+
+.userBtnCont {
+    display: grid;
+    grid-template-columns: auto;
+    place-items: center;
+    row-gap: 3px;
+}
+
+.logInBtn,
+.signUpBtn {
+    min-width: 100px;
+}
+
+.hideDropDown {
+    display: none;
+    /* background-color: blue; */
+}
+
+.userAvatarSecondaryDiv {
+    display: grid;
+    grid-template-columns: auto;
+    place-items: center;
+    row-gap: 20px;
+}
+
+.userAvatarSecondaryDiv>span:nth-of-type(1) {
+    width: 100%;
+}
+
+.mainCont {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: -100%;
+    left: -95vw;
+    background-color: rgba(128, 128, 128, 0.395);
+    z-index: 2;
+    display: grid;
+    place-items: center;
+}
+
+.secondaryCont {
+    background-color: white;
+    border-radius: 15px;
+    background-color: white;
+    width: 40%;
+    padding: 2% 3%;
+}
+
+.secondaryCont>h1 {
+    font-weight: 700;
+    margin: 0 auto;
+}
+
+.btnCont {
+    width: 100%;
+}
+
+.loginBtn {
+    width: 100%;
+}
+
+@media(max-width:970px) {
+    .secondaryCont {
+        width: 60%;
+    }
+}
+
+@media(max-width:685px) {
+    .secondaryCont {
+        width: 70%;
+    }
+}

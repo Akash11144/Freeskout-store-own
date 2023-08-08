@@ -1,0 +1,141 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+::placeholder {
+  color: rgb(80, 79, 79);
+  /* Firefox */
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: rgb(80, 79, 79);
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: rgb(80, 79, 79);
+}
+
+.mainCont {
+  user-select: none;
+  display: grid;
+  place-items: center;
+  position: absolute;
+  z-index: 10;
+  background-color: rgba(128, 128, 128, 0.917);
+  width: 100vw;
+  height: 100vh;
+}
+
+.logoCont {
+  width: max-content;
+  border-radius: 50%;
+  box-sizing: border-box;
+  padding: 2% 3%;
+}
+
+.logoCont>img {
+  width: 90%;
+  max-width: 120px;
+}
+
+.loginHead {
+  color: rgba(0, 0, 0, 0.56);
+  font-size: 24px;
+}
+
+.loginHeadSpan {
+  color: #4f0b27;
+}
+
+.inputUser {
+  font-weight: 500 !important;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.closeIcon {
+  cursor: pointer;
+  width: max-content;
+}
+
+.loginBtn:hover {
+  background-color: #000535 !important;
+  border-color: #000535 !important;
+  color: #fff !important;
+  transition: all 0.3s ease-in-out;
+}
+
+.loginBtn {
+  color: rgba(255, 255, 255, 1) !important;
+  font-weight: 500 !important;
+  border: 1px solid #000535;
+}
+
+.tcCont {
+  color: rgba(0, 0, 0, 0.539) !important;
+  font-size: 13px !important;
+}
+
+.otpText {
+  font-size: 13px !important;
+  cursor: pointer;
+}
+
+.dividerLSideDiv {
+  height: 1px;
+  background: linear-gradient(to right, #fff, rgb(70, 70, 70));
+  border-radius: 50%;
+}
+
+.dividerRSideDiv {
+  height: 1px;
+  background: linear-gradient(to right, rgb(70, 70, 70), #fff);
+  border-radius: 50%;
+}
+
+@media (max-width: 530px) {
+  .logoCont>img {
+    width: 60%;
+  }
+
+  .loginHead {
+    font-size: 16px;
+  }
+
+  input {
+    font-size: 16px !important;
+  }
+
+  button {
+    font-size: 16px !important;
+  }
+
+  .tcCont {
+    font-size: 13px !important;
+  }
+}
+
+@media (max-width: 320px) {
+  .logoCont>img {
+    width: 40%;
+  }
+
+  .loginHead {
+    font-size: 14px;
+  }
+
+  input {
+    font-size: 14px !important;
+  }
+
+  button {
+    font-size: 14px !important;
+  }
+
+  .tcCont {
+    font-size: 11px !important;
+  }
+}

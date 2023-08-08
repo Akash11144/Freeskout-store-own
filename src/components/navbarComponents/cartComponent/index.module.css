@@ -1,0 +1,25 @@
+.CartCountCont {
+    height: 17px;
+    width: 17px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 11px;
+    position: absolute;
+    top: -25%;
+    right: -35%;
+}
+
+.cartImg {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.navLinkCont {
+    margin: 0 1%;
+    display: grid;
+    place-items: center;
+}

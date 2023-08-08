@@ -1,0 +1,34 @@
+.modal {
+    background-color: rgba(240, 248, 255, 0.497);
+}
+
+.star {
+    font-size: 2em;
+    color: rgba(128, 128, 128, 0.3);
+    cursor: pointer;
+}
+
+.selected {
+    color: goldenrod;
+}
+
+.errorStar {
+    color: red;
+}
+
+.myTextarea {
+    width: 100%;
+    height: 150px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: none;
+}
+
+.starContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3%;
+}

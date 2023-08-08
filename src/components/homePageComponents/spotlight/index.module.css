@@ -1,0 +1,61 @@
+.sectionSpot {
+    width: 100%;
+    padding: 2% 0 0 0;
+    background: rgba(217, 217, 217, 0.35);
+    display: grid;
+    place-items: center;
+}
+
+.heading {
+    width: 100vw;
+    margin: auto;
+    text-align: center;
+    font-weight: 600;
+}
+
+.heading p {
+    opacity: 0.8;
+    /* margin-top: 20px;  */
+}
+
+.heading h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: RGB(3, 6, 54);
+}
+
+video {
+    width: 100%;
+    margin-top: 20px auto 0 auto;
+    opacity: 0.9;
+    background-color: aqua;
+}
+
+@media (max-width : 900px) {
+    .heading {
+        width: 60vw;
+    }
+
+    .sectionSpot {
+        /* width: 90vw; */
+    }
+
+    .heading p {
+        opacity: 0.8;
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width : 400px) {
+    .sectionSpot {
+        /* width: 95%; */
+    }
+
+    .heading {
+        width: 100%;
+    }
+
+    .heading h1 {
+        font-size: 1.6rem;
+    }
+}

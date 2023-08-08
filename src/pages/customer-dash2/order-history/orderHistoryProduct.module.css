@@ -1,0 +1,147 @@
+      .mainCont {
+          border: 1px solid rgba(128, 128, 128, 0.558);
+          border-radius: 15px;
+      }
+
+      .tertiaryCont {
+          width: 100%;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding: 0 15px;
+          margin: 2% 0;
+      }
+
+      .prodDet {
+          margin: 2% 0;
+      }
+
+      .secondaryLeftCont {
+          width: 100%;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          background-color: #71717a14;
+          border-radius: 15px;
+          padding: 2% 3%;
+      }
+
+      .secondaryRightCont {
+          width: 50%;
+          text-align: right;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          align-items: center;
+          width: max-content;
+          padding: 0 5px;
+      }
+
+      .footerHeadingCont {
+          font-weight: 400;
+          font-size: 12px;
+      }
+
+      .footerDataCont {
+          font-weight: 700;
+          font-size: 12px;
+          color: #000535;
+      }
+
+      .prodCont {
+          display: flex;
+          justify-content: flex-start;
+          align-items: center;
+          gap: 5%;
+      }
+
+      .prodDet>div>p {
+          margin: unset !important;
+          padding: unset !important;
+      }
+
+      .prodName {
+          font-weight: 500;
+          font-size: 14px;
+          letter-spacing: 1px;
+      }
+
+      .prodName>span {
+          font-weight: 400;
+          font-size: 16px;
+          letter-spacing: 1px;
+          color: rgba(0, 0, 0, 0.484);
+      }
+
+      .brandName {
+          font-size: 12px;
+          font-weight: 600;
+      }
+
+      .prodPrice {
+          font-weight: 500;
+          font-size: 14px;
+          letter-spacing: 1px;
+          color: #71717A;
+      }
+
+      .estCont {
+          font-weight: 400;
+          font-size: 13px;
+          margin: unset !important;
+      }
+
+      .estDate {
+          font-weight: 600;
+          font-size: 14px;
+          margin: unset !important;
+      }
+
+      @media(max-width:768px) {
+          .secondaryLeftCont {
+              flex-direction: column;
+          }
+
+          .secondaryLeftCont>div:nth-of-type(1) {
+              width: 100% !important;
+          }
+
+          .secondaryRightCont {
+              width: 100%;
+              flex-direction: row;
+          }
+      }
+
+      @media(max-width:502px) {
+          .tertiaryCont {
+              flex-direction: column;
+          }
+
+          .tertiaryCont>div {
+              display: flex;
+              justify-content: space-between;
+              align-items: center;
+              width: 100%;
+          }
+
+          .prodName,
+          .prodName>span {
+              font-size: 11px;
+          }
+
+          .prodImg {
+              width: 15%;
+          }
+
+          .brandName {
+              font-size: 10px;
+          }
+
+          .prodPrice {
+              font-size: 11px;
+          }
+
+          .estDate {
+              font-size: 12px;
+          }
+      }

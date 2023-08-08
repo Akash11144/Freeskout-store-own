@@ -1,0 +1,15 @@
+.inputErrStyles {
+  border: 1px solid rgba(255, 0, 0, 0.504) !important;
+}
+
+.errorTextContainer {
+  color: rgba(255, 0, 0, 0.718);
+  font-size: 12px;
+  font-weight: 500;
+  padding: 0;
+  margin: 0;
+}
+
+.inputStyles {
+  width: 100% !important;
+}

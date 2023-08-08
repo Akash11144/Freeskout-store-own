@@ -1,0 +1,122 @@
+.popularCategoriesCont {
+    width: 100%;
+    height: 100%;
+    padding: 5% 2%;
+    user-select: none;
+}
+
+.popularCategoriesHeadingCont {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.popularCategoriesHeadingCont>h3 {
+    color: #000536;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 35px;
+}
+
+.popularCategoriesMainBtn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 15px;
+    letter-spacing: 0.8px;
+    cursor: pointer;
+    color: #151518;
+    opacity: 0.5;
+}
+
+.popularCategoriesMainBtn>span:nth-of-type(1) {
+    margin: 0 5px 0 0;
+}
+
+.popularCategoriesMainBtn>span:nth-of-type(2) {
+    animation: bounce 2000ms infinite cubic-bezier(0.445, 0.05,
+            0.55, 0.95);
+}
+
+@keyframes bounce {
+    50% {
+        transform: translateX(6px);
+    }
+}
+
+.categoryCardImg {
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+    margin: 25px 5px 15px;
+    cursor: pointer;
+    padding: 4%;
+}
+
+.categoryCardImg:hover {
+    border: 2px solid #ff4655;
+}
+
+.categoryCardDesc {
+    text-align: center;
+}
+
+.categoryCardDesc>h5 {
+    color: #000536;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+}
+
+.categoryCardDesc>p {
+    font-weight: 500;
+    color: #71717a;
+    font-size: 13px;
+    line-height: 18px;
+}
+
+.productCardCont {
+    display: flex;
+    /* justify-content: space-evenly; */
+    /* flex-wrap: wrap; */
+    overflow-x: auto;
+    align-items: center;
+}
+
+@media(max-width:1310px) {
+    .popularCategoriesHeadingCont>h3 {
+        font-size: 32px;
+        line-height: 1.1;
+    }
+}
+
+@media(max-width:1090px) {
+    .popularCategoriesHeadingCont>h3 {
+        font-size: 26px;
+    }
+}
+
+
+@media(max-width:768px) {
+    .popularCategoriesHeadingCont>h3 {
+        font-size: 20px;
+    }
+}
+
+@media (max-width : 570px) {
+    .popularCategoriesCont {
+        width: 100%;
+    }
+
+    .categoryCardImg {
+        width: 160px;
+        height: 100%;
+    }
+
+    .popularCategoriesMainBtn {
+        font-size: 12px;
+        line-height: unset;
+    }
+}
